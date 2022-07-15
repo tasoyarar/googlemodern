@@ -1,0 +1,129 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+}
+a{
+    text-decoration: none;
+}
+a:hover{
+    text-decoration: underline;
+}
+a:link{
+    color: black;
+}
+a:visited{
+    color:black;
+}
+nav{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 1.7rem;
+}
+#nav-left{
+    display: flex;
+    margin-top: .6rem;
+}
+#nav-left a:last-child{
+    margin-left: 1rem;
+}
+#nav-right{
+    display: flex;
+    align-items: center;
+}
+#nav-right a:not(:last-child){
+    margin-right: 1rem;
+}
+#nav-right svg{
+    height: 1.5rem;
+}
+#nav-right img{
+    border-radius: 50%;
+}
+
+#logo{
+    display: flex;
+    justify-content: center;
+    margin-top: 4rem;
+}
+
+.bar{
+    margin:0 auto;
+    width:575px;
+    border-radius:30px;
+    border:1px solid #dcdcdc;
+}
+
+.bar:hover{
+    box-shadow: 1px 1px 8px 1px #dcdcdc;
+}
+
+.bar:focus-within{
+    box-shadow: 1px 1px 8px 1px #dcdcdc;
+    outline:none;
+}
+
+.searchbar{
+    height:45px;
+    border:none;
+    width:500px;
+    font-size:16px;
+    outline: none;
+    
+}
+
+.voice{
+    height:20px;
+    position:relative;
+    top:5px;
+    left:10px;
+}
+
+.btn{
+    display: flex;
+    justify-content: center;
+    margin-top: 2rem;
+}
+
+.btn button{
+    background-color: #f5f5f5;
+    border:none;
+    color:#707070;
+    font-size:15px;
+    padding: 10px 20px;
+    margin:5px;
+    border-radius:4px;
+    outline:none;
+}
+
+.btn button:hover{
+    border: 1px solid #c8c8c8;
+    padding: 9px 19px;
+    color:#808080;
+}
+
+.btn button:focus{
+    border:1px solid #4885ed;
+    padding: 9px 19px;
+}
+  
+footer{
+    background: #F2F2F2;
+    display: flex;
+    margin-top: 12rem;
+    justify-content: space-between;
+    padding: 1rem;
+}
+
+.footer-left a:not(:first-child){
+    padding-left: 1rem;
+}
+
+.footer-right a:not(:last-child){
+    padding-right: 1rem;
+}
